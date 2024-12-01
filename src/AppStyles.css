@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #ffcc00;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff0000;
+}
+
+nav a.active {
+  color: #ff0000;
+}
+
+/* Page Container */
+.app-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Comic Book Style Headings */
+h2 {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  color: #ff0000;
+  text-shadow: 2px 2px #000;
+}
+
+/* Character Grid */
+.character-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.character-card {
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s;
+  width: 200px;
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+}
+
+.character-card img {
+  width: 100%;
+  height: auto;
+}
+
+.character-card h3 {
+  background-color: #ffcc00;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  color: #333;
+}
+
+/* Not Found Page */
+.not-found {
+  text-align: center;
+  padding: 50px;
+}
+
+.not-found h2 {
+  font-size: 48px;
+  color: #ff0000;
+  text-shadow: 2px 2px #000;
+}
+
+.not-found p {
+  font-size: 24px;
+  color: #333;
+}
